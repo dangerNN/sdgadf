@@ -12,7 +12,6 @@ protected:
 public:
     Shareware();
     Shareware(string name, string producer,Date installationDate,int term);
-    virtual ~Shareware();
 
     void setDate(Date installationDate);
     void setTerm(int term);

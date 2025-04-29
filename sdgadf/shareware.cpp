@@ -10,10 +10,6 @@ Shareware::Shareware(string name, string producer, Date installationDate, int te
 {
 	this->installationDate = installationDate;
 	this->term = term;
-{
-
-Shareware::~Shareware()
-{
 }
 
 void Shareware::setDate(Date installationDate)
@@ -60,4 +56,4 @@ void Shareware::load(ifstream& file)
 	installationDate.setMonth(month);
 	installationDate.setYear(year);
 	file >> term;
-};
+}
