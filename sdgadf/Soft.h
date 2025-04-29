@@ -26,12 +26,4 @@ public:
 	virtual void load(ifstream&file);
 
 
-
-
-
-
-
-
-
-
 };

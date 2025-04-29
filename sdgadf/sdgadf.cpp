@@ -5,7 +5,8 @@
 
 int main()
 {
-
+	Shareware d;
+	d.showInfo();
 }
 
 
